@@ -1,0 +1,77 @@
+.gallery {
+    /**
+     * Lay out the children of this container with
+     * flexbox, which is horizontal by default.
+     */
+    display: flex;
+  
+    /**
+     * Allow the children to wrap to the next "row",
+     * instead of trying to squeeze them all into
+     * a single row.
+     */
+    
+   
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border: 1px solid #D7DBDD;
+    
+  }
+
+
+.photo--large{
+    
+    border:2px solid green; ;
+    width: 400px;
+    height: 380px;
+    background-size: 400px 380px;
+    
+   
+  }
+
+
+
+  .photo1 {
+    background-image: url('https://nftcrypto.io/wp-content/uploads/2023/05/2023-05-18-17_57_18-The-Journey-of-an-NFT-Avatar-Word-Product-Activation-Failed.png');
+  }
+  
+  .photo2 {
+    background-image: url('https://nftcrypto.io/wp-content/uploads/2023/05/2023-05-18-17_34_29-The-Journey-of-an-NFT-Avatar-Word-Product-Activation-Failed.png');
+  }
+  
+  .photo3 {
+
+    
+    background-image: url('https://forkast.news/wp-content/uploads/2022/03/NFT-Avatar.png');
+    object-fit: contain;
+  }
+  
+  .photo4 {
+    background-image: url('https://nftcalendar.io/storage/uploads/events/2023/7/ErjBWEWs0zoS64QE0qOWut4PwsWcP1U2kOA3RzRb.jpg');
+  }
+  
+  .photo5 {
+    background-image: url('https://legiit-service.s3.amazonaws.com/cd221bcabce7b6c848d2905e3d8f915c/966fae648396abdf17ac7bd161237ca6.jpg');
+  }
+  
+  .photo6 {
+    background-image: url('https://pbs.twimg.com/media/F12yVIkWYAAoNqd?format=jpg&name=medium');
+  }
+  
+  .photo7 {
+    background-image: url('https://storage.googleapis.com/pai-images/6ef53c85ad3947fb83745cb76e73d7fa.jpeg');
+  }
+  
+  .photo8 {
+    background-image: url('https://f.rpp-noticias.io/2022/01/25/1207263fjxxrjnwqaewpn-jpg.jpg');
+  }
+  
+  .photo9 {
+    background-image: url('https://storage.googleapis.com/pai-images/4fac826d063a4d0c94e741a4c8d3b23f.jpeg');
+  }
+  
+  .photo10 {
+    background-image: url('https://storage.googleapis.com/pai-images/167c9cd6831f4f669c0771799dae6118.jpeg');
+  }
