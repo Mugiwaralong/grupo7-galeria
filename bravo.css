@@ -17,6 +17,7 @@
     height: 100%;
     padding: 5px;
     border: 1px solid #D7DBDD;
+   
     
   }
 
@@ -27,6 +28,14 @@
     width: 400px;
     height: 380px;
     background-size: 400px 380px;
+    color: white;
+    text-align: end;
+    line-height:720px;
+    
+  
+    
+    
+    
     
    
   }
